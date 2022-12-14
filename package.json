@@ -1,0 +1,22 @@
+{
+  "name": "backendtemoinko",
+  "version": "1.0.0",
+  "description": "backend estudiando node coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinarg/bakendTemoinko.git"
+  },
+  "author": "martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinarg/bakendTemoinko/issues"
+  },
+  "homepage": "https://github.com/martinarg/bakendTemoinko#readme",
+  "dependencies": {
+    "node": "^19.2.0"
+  }
+}
