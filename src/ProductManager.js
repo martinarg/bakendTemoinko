@@ -45,7 +45,7 @@ class ProductManager {
       throw err;
     }
   }
-
+//actualizar productos
   async updateProduct(id, product) {
     try {
       const data = await this.readFile();
@@ -57,7 +57,7 @@ class ProductManager {
       throw err;
     }
   }
-
+  //borrar productos
   async deleteProduct(id) {
     try {
       const data = await this.readFile();
@@ -70,7 +70,6 @@ class ProductManager {
     }
   }
 
-  //resolve error ENOENT: no such file or directory, open 'products.json'
   async readFile() {
     return new Promise((resolve, reject) => {
       fs.readFile(this.path, "utf-8", (err, data) => {
