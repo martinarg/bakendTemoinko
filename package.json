@@ -11,6 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/martinarg/bakendTemoinko.git"
   },
+  "type": "module",
+  "keywords": [],
   "author": "martin",
   "license": "ISC",
   "bugs": {
